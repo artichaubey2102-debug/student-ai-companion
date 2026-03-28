@@ -1,0 +1,41 @@
+# Student AI Companion - Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core application framework
+streamlit==1.35.0
+
+# LangChain - RAG pipeline orchestration
+langchain==0.2.6
+langchain-google-genai==1.0.7
+langchain-chroma==0.1.2
+langchain-community==0.2.6
+langchain-experimental==0.0.62
+
+# Vector database
+chromadb==0.5.3
+
+# Google Gemini (LLM + embeddings)
+google-generativeai==0.7.2
+
+# PDF processing
+pdfplumber==0.11.1
+Pillow==10.4.0
+
+# Environment variable loading
+python-dotenv==1.0.1
+
+# Evaluation framework
+ragas==0.1.14
+datasets==2.20.0
+
+# Data handling and metrics
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+
+# Visualisation (for evaluation dashboard)
+plotly==5.22.0
+matplotlib==3.9.1
+
+# Sentence transformers (used only for semantic chunking strategy)
+sentence-transformers==3.0.1

@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# ChromaDB local storage (can be large)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded PDFs (too large for git; document separately)
+data/pdfs/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+.idea/
