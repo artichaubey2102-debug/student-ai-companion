@@ -1,0 +1,42 @@
+[
+  {
+    "pdf": "data/pdfs/Deep_Learning_Book_Ian_J_Goodfellow_Deep learning_MIT_Press.pdf",
+    "course": "deep_learning",
+    "notes": "Goodfellow, Bengio, Courville - Deep Learning, MIT Press"
+  },
+  {
+    "pdf": "data/pdfs/Natural_Language_Processing_Book_NLTK_Oreilly.pdf",
+    "course": "natural_language_processing",
+    "notes": "Natural Language Processing NLTK with Python"
+  },
+  {
+    "pdf": "data/pdfs/Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf",
+    "course": "natural_language_processing",
+    "notes": "Natural Language Processing Foundations Manning And Hinrich"
+  },
+  {
+    "pdf": "data/pdfs/Big_data_Book_oreilly_hadoop_the_definitive_guide.pdf",
+    "course": "big_data_analytics",
+    "notes": "Tom White - Hadoop: The Definitive Guide Big Data"
+  },
+  {
+    "pdf": "data/pdfs/Big_Data_Analytics_Book_IBM_Arvind_Sathi.pdf",
+    "course": "big_data_analytics",
+    "notes": "Big Data IBM"
+  },
+  {
+    "pdf": "data/pdfs/Forecasting_Book_forecasting_methods_and_applications_makridakis-spyros.pdf",
+    "course": "forecasting_methods",
+    "notes": "Makridakis - Forecasting Methods and Applications"
+  },
+  {
+    "pdf": "data/pdfs/Text_and_Image_Analytics_Book_Data_Analytics_using_Python_Bharti_Motwani.pdf",
+    "course": "text_and_image_analytics",
+    "notes": "Text_and_Image_Analytics_Book"
+  },
+  {
+    "pdf": "data/pdfs/Text_and_Image_Analytics_Book_analyzing_qualitative_data_systematic_approaches_Bernard.pdf",
+    "course": "text_and_image_analytics",
+    "notes": "Text_and_Image_Analytics_Book Bernard"
+  }
+]

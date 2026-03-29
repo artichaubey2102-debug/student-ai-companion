@@ -5,6 +5,13 @@ import json
 
 load_dotenv()
 
+st.set_page_config(
+    page_title="Student AI Companion",
+    page_icon=None,
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 @st.cache_resource
 def load_syllabus():
     syllabus_path = os.path.join(os.path.dirname(__file__), "syllabus.json")
@@ -14,13 +21,6 @@ def load_syllabus():
     return {}
 
 syllabus = load_syllabus()
-
-st.set_page_config(
-    page_title="Student AI Companion",
-    page_icon=None,
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 with st.sidebar:
     st.title("Student AI Companion")

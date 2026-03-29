@@ -15,7 +15,7 @@ langchain-experimental==0.0.62
 chromadb==0.5.3
 
 # Google Gemini (LLM + embeddings)
-google-generativeai==0.7.2
+google-genai>=0.8.0
 
 # PDF processing
 pdfplumber==0.11.1
@@ -39,3 +39,4 @@ matplotlib==3.9.1
 
 # Sentence transformers (used only for semantic chunking strategy)
 sentence-transformers==3.0.1
+ollama

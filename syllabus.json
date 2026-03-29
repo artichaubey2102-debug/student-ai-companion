@@ -1,1 +1,137 @@
-{}
+{
+  "deep_learning": {
+    "code": "DS5B-601",
+    "title": "Deep Learning",
+    "credits": 3,
+    "units": {
+      "unit_1": {
+        "title": "Foundations of Neural Networks",
+        "topics": ["introduction to deep learning","neural network","feed forward neural network","backpropagation algorithm","activation functions","threshold activation","sigmoid activation","ReLU activation","hyperbolic tangent tanh","gradient descent","stochastic gradient descent","cost function","global minima","local minima"],
+        "keywords": ["perceptron","weights","bias","loss","gradient","backprop","SGD","activation","sigmoid","ReLU","tanh","threshold","feedforward","FFNN"]
+      },
+      "unit_2": {
+        "title": "Convolutional Neural Networks",
+        "topics": ["introduction to Keras","convolutional neural networks","CNN vs human brain","convolution operation","ReLU layer","max pooling layer","data flattening","fully connected layer","softmax","cross entropy","data augmentation","image dataset creation","CNN model with Keras"],
+        "keywords": ["CNN","convolution","pooling","filter","feature map","stride","padding","Keras","softmax","cross-entropy","augmentation","flatten","max pooling","kernel"]
+      },
+      "unit_3": {
+        "title": "Recurrent Neural Networks",
+        "topics": ["recurrent neural networks","RNN applications","issues with feed forward network in RNN","backpropagation in RNN","loss calculation","vanishing gradient","LSTM memory cell","forget gate","input gate","output gate","RNN model in NLP with Keras"],
+        "keywords": ["RNN","LSTM","recurrent","vanishing gradient","forget gate","input gate","output gate","memory cell","sequence","time series","hidden state","cell state"]
+      },
+      "unit_4": {
+        "title": "Advanced Architectures and Applications",
+        "topics": ["Boltzmann machine","energy based models","restricted Boltzmann machine","contrastive divergence","deep belief networks","deep Boltzmann machines","self organising maps","k-means clustering","autoencoders","dynamic memory networks in NLP","fake news classifier","similar question detection","dialogue topic tracking"],
+        "keywords": ["Boltzmann","RBM","autoencoder","self-organising map","SOM","deep belief","contrastive divergence","EBM","memory network","fake news","dialogue"]
+      }
+    }
+  },
+  "big_data_analytics": {
+    "code": "DS5B-605",
+    "title": "Big Data Analytics",
+    "credits": 3,
+    "units": {
+      "unit_1": {
+        "title": "Introduction to Big Data",
+        "topics": ["big data platform","challenges of conventional systems","intelligent data analysis","nature of data","analytic processes and tools","analysis vs reporting","modern data analytic tools","big data analytics for business","structured vs unstructured data","databases"],
+        "keywords": ["big data","volume","velocity","variety","veracity","structured","unstructured","analytics","conventional systems","data platform","reporting"]
+      },
+      "unit_2": {
+        "title": "Hadoop and MapReduce",
+        "topics": ["introduction to Hadoop","Hadoop architecture","Apache Hadoop ecosystem","Hadoop distributed file system HDFS","HDFS concepts","introduction to MapReduce","MapReduce architecture","writing MapReduce programs","map phase","shuffling","sorting","reducing phase"],
+        "keywords": ["Hadoop","HDFS","MapReduce","namenode","datanode","mapper","reducer","shuffle","sort","distributed","file system","block","replication","ecosystem"]
+      },
+      "unit_3": {
+        "title": "Apache Spark",
+        "topics": ["introduction to Spark","resilient distributed dataset RDD","RDD operations","RDD actions","RDD transformations","Spark dataframes","dataframe join","dataframe groupby","dataframe aggregate","handling missing data"],
+        "keywords": ["Spark","RDD","dataframe","transformation","action","lazy evaluation","lineage","join","groupby","aggregate","missing data","resilient","distributed dataset"]
+      },
+      "unit_4": {
+        "title": "SparkSQL and MLlib",
+        "topics": ["SparkSQL operations","MLlib data types","basic statistics in MLlib","logistic regression","decision tree classifier","linear regression","model evaluation","collaborative filtering","clustering in MLlib"],
+        "keywords": ["SparkSQL","MLlib","logistic regression","decision tree","linear regression","collaborative filtering","clustering","model evaluation","SQL","machine learning pipeline"]
+      }
+    }
+  },
+  "natural_language_processing": {
+    "code": "DS5B-607",
+    "title": "Natural Language Processing",
+    "credits": 3,
+    "units": {
+      "unit_1": {
+        "title": "Introduction to NLP",
+        "topics": ["introduction to NLP","NLP tasks in syntax","NLP tasks in semantics","NLP tasks in pragmatics","information extraction","question answering","machine translation","problem of ambiguity","role of machine learning in NLP","history of NLP"],
+        "keywords": ["NLP","syntax","semantics","pragmatics","ambiguity","information extraction","question answering","translation","computational linguistics","parsing","tokenisation"]
+      },
+      "unit_2": {
+        "title": "Language Models and Sequence Labelling",
+        "topics": ["n-gram models","estimating parameters","smoothing","evaluating language models","lexical syntax","hidden Markov models","maximum entropy models","conditional random fields"],
+        "keywords": ["n-gram","language model","smoothing","perplexity","HMM","hidden Markov","maximum entropy","CRF","conditional random field","bigram","trigram","unigram"]
+      },
+      "unit_3": {
+        "title": "Parsing and Semantics",
+        "topics": ["grammar formalisms","treebanks","parsing for context free grammars","statistical parsing","probabilistic context free grammars PCFG","lexicalized PCFGs","lexical semantics","word sense disambiguation","compositional semantics","semantic role labeling","semantic parsing"],
+        "keywords": ["CFG","PCFG","treebank","parsing","grammar","word sense","disambiguation","semantic role","lexical semantics","compositional","chart parsing"]
+      },
+      "unit_4": {
+        "title": "Information Extraction and Applications",
+        "topics": ["named entity recognition","relation extraction","information extraction using sequence labeling","machine translation","statistical translation","word alignment","phrase based translation","synchronous grammars","sentiment analysis","text entailment"],
+        "keywords": ["NER","named entity","relation extraction","sentiment","machine translation","word alignment","phrase-based","text entailment","sequence labeling","IE"]
+      }
+    }
+  },
+  "forecasting_methods": {
+    "code": "DS5B-603",
+    "title": "Forecasting Methods",
+    "credits": 4,
+    "units": {
+      "unit_1": {
+        "title": "Foundations of Forecasting and Time Series",
+        "topics": ["forecasting perspective","types of forecasting","basic steps in forecasting","time series patterns","graphical summaries","forecasting accuracy","MAD","MSE","MAE","prediction intervals","transformations","decomposition","moving averages","STL decomposition","autocorrelation","ACF","Durbin Watson statistics"],
+        "keywords": ["time series","forecasting","MAD","MSE","MAE","MAPE","decomposition","trend","seasonality","cycle","ACF","autocorrelation","Durbin-Watson","moving average","STL"]
+      },
+      "unit_2": {
+        "title": "Forecasting Methods and Models",
+        "topics": ["averaging methods","moving averages","single exponential smoothing","Holts linear method","Holt Winters method","simple regression","non linear relationships","regression with time series","econometric models","ARIMA model","stationarity","forecasting with ARIMA"],
+        "keywords": ["exponential smoothing","Holt","Holt-Winters","ARIMA","ARMA","stationarity","differencing","regression","econometric","SES","double exponential","seasonal"]
+      },
+      "unit_3": {
+        "title": "Qualitative Forecasting and Growth Curves",
+        "topics": ["qualitative forecasting","stages of innovation","Delphi method","forecasting by analogy","growth curves","Pearl curve","Gompertz curve","Fisher Pry curve","estimation of upper limit"],
+        "keywords": ["Delphi","qualitative","growth curve","Pearl curve","Gompertz","Fisher-Pry","analogy","innovation","substitution","upper limit","S-curve"]
+      },
+      "unit_4": {
+        "title": "Technology Forecasting and Normative Methods",
+        "topics": ["measures of technology","scoring models","causal models","techno economic models","normative methods","relevance trees","morphological models","mission flow diagrams","advantages and limitations of forecasting","case studies"],
+        "keywords": ["technology forecasting","scoring model","relevance tree","morphological","normative","techno-economic","causal","mission flow","limitations","case study"]
+      }
+    }
+  },
+  "text_and_image_analytics": {
+    "code": "DS5B-623",
+    "title": "Text and Image Analytics",
+    "credits": 4,
+    "units": {
+      "unit_1": {
+        "title": "Text Data Analytics",
+        "topics": ["text mining","text preprocessing","shallow parsing","stop words","stemming","lemmatizing","word cloud","sentiment analysis","TextBlob","NRC sentiment","VADER sentiment","AFINN sentiment"],
+        "keywords": ["text mining","preprocessing","tokenisation","stopwords","stemming","lemmatisation","word cloud","sentiment","TextBlob","VADER","AFINN","NRC","shallow parsing"]
+      },
+      "unit_2": {
+        "title": "Machine Learning for Text Data",
+        "topics": ["recommendation system for movies","Euclidean distance","Manhattan distance","cosine similarity","k-means clustering for text","hierarchical clustering for text","naive Bayes for text classification","support vector machines for text"],
+        "keywords": ["cosine similarity","Euclidean","Manhattan","TF-IDF","k-means","hierarchical clustering","naive Bayes","SVM","text classification","recommendation","clustering"]
+      },
+      "unit_3": {
+        "title": "Image Data Analytics",
+        "topics": ["image acquisition","image representation","image resizing","image rescaling","image rotation","image intensity","image cropping","edge extraction Sobel filter","edge extraction Prewitt filter"],
+        "keywords": ["image processing","pixel","RGB","grayscale","resize","rotate","crop","Sobel","Prewitt","edge detection","intensity","acquisition"]
+      },
+      "unit_4": {
+        "title": "Machine Learning for Image Data",
+        "topics": ["recommendation system for images","cosine similarity for images","k-means clustering for images","hierarchical clustering for images","naive Bayes for image classification","support vector machines for image classification","object detection"],
+        "keywords": ["image classification","object detection","SVM","naive Bayes","k-means","hierarchical","cosine similarity","histogram","feature extraction","image recommendation"]
+      }
+    }
+  }
+}
