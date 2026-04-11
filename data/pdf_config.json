@@ -5,6 +5,11 @@
     "notes": "Goodfellow, Bengio, Courville - Deep Learning, MIT Press"
   },
   {
+    "pdf": "data/pdfs/Main_Course_Book.pdf",
+    "course": "deep_learning",
+    "notes": "Main Book For All Courses"
+  },
+  {
     "pdf": "data/pdfs/Natural_Language_Processing_Book_NLTK_Oreilly.pdf",
     "course": "natural_language_processing",
     "notes": "Natural Language Processing NLTK with Python"
@@ -13,6 +18,11 @@
     "pdf": "data/pdfs/Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf",
     "course": "natural_language_processing",
     "notes": "Natural Language Processing Foundations Manning And Hinrich"
+  },
+  {
+    "pdf": "data/pdfs/Main_Course_Book.pdf",
+    "course": "natural_language_processing",
+    "notes": "Main Book For All Courses"
   },
   {
     "pdf": "data/pdfs/Big_data_Book_oreilly_hadoop_the_definitive_guide.pdf",
@@ -25,18 +35,38 @@
     "notes": "Big Data IBM"
   },
   {
-    "pdf": "data/pdfs/Forecasting_Book_forecasting_methods_and_applications_makridakis-spyros.pdf",
+    "pdf": "data/pdfs/Main_Course_Book.pdf",
+    "course": "big_data_analytics",
+    "notes": "Main Book For All Courses"
+  },
+  {
+    "pdf": "data/pdfs/Forecasting_Methods_Introduction to Time Series Forecasting with Python.pdf",
     "course": "forecasting_methods",
-    "notes": "Makridakis - Forecasting Methods and Applications"
+    "notes": "Forecasting Book 1"
   },
   {
-    "pdf": "data/pdfs/Text_and_Image_Analytics_Book_Data_Analytics_using_Python_Bharti_Motwani.pdf",
-    "course": "text_and_image_analytics",
-    "notes": "Text_and_Image_Analytics_Book"
+    "pdf": "data/pdfs/Forecasting_Methods_Book.pdf",
+    "course": "forecasting_methods",
+    "notes": "Forecasting Book 2"
   },
   {
-    "pdf": "data/pdfs/Text_and_Image_Analytics_Book_analyzing_qualitative_data_systematic_approaches_Bernard.pdf",
+    "pdf": "data/pdfs/Main_Course_Book.pdf",
+    "course": "forecasting_methods",
+    "notes": "Main Book For All Courses"
+  },
+  {
+    "pdf": "data/pdfs/Text_Analytics_Book_The Text Mining Handbook.pdf",
     "course": "text_and_image_analytics",
-    "notes": "Text_and_Image_Analytics_Book Bernard"
+    "notes": "Text_Analytics_Book"
+  },
+  {
+    "pdf": "data/pdfs/Image_Analytics_Book.pdf",
+    "course": "text_and_image_analytics",
+    "notes": "Image_Analytics_Book"
+  },
+  {
+    "pdf": "data/pdfs/Main_Course_Book.pdf",
+    "course": "text_and_image_analytics",
+    "notes": "Main Book For All Courses"
   }
 ]
