@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the relationship between the kernel-based function f(x) and the preprocessing step of applying \u03c6(x) to all inputs?",
+    "ground_truth": "The relationship between f(x) and \u03c6(x) is linear, as f(x) can be rewritten as f(x) = b + \u03b1 \u03b5(x).",
+    "source_chunk": "After replacing dot products with kernel evaluations, we can make predictions\nusing the function\nf(x) = b+ \u03b1 k(x,x(i) ). (5.83)\ni\ni\n\ue058\nThis function is nonlinear with respect to x, but the relationship between \u03c6(x)\nand f(x) is linear. Also, the relationship between \u03b1 and f(x) is linear. The\nkernel-based function is exactly equivalent to preprocessing the data by applying\n\u03c6(x) to all inputs, then learning a linear model in the new transformed space.",
+    "course_key": "deep_learning",
+    "course_title": "Deep Learning",
+    "unit_key": "unit_2",
+    "unit_title": "Convolutional Neural Networks",
+    "source_file": "Deep_Learning_Book_Ian_J_Goodfellow_Deep learning_MIT_Press.pdf"
+  },
+  {
+    "question": "Is the kernel-based function equivalent to a linear model learned in a transformed space after applying \u03c6(x) to all inputs?",
+    "ground_truth": "Yes, the kernel-based function is exactly equivalent to a linear model learned in the new transformed space after preprocessing the data by applying \u03c6(x) to all inputs.",
+    "source_chunk": "After replacing dot products with kernel evaluations, we can make predictions\nusing the function\nf(x) = b+ \u03b1 k(x,x(i) ). (5.83)\ni\ni\n\ue058\nThis function is nonlinear with respect to x, but the relationship between \u03c6(x)\nand f(x) is linear. Also, the relationship between \u03b1 and f(x) is linear. The\nkernel-based function is exactly equivalent to preprocessing the data by applying\n\u03c6(x) to all inputs, then learning a linear model in the new transformed space.",
+    "course_key": "deep_learning",
+    "course_title": "Deep Learning",
+    "unit_key": "unit_2",
+    "unit_title": "Convolutional Neural Networks",
+    "source_file": "Deep_Learning_Book_Ian_J_Goodfellow_Deep learning_MIT_Press.pdf"
+  },
+  {
+    "question": "What is the relationship between the variance of an estimator and the number of examples (m) in a dataset?",
+    "ground_truth": "The variance of the estimator decreases as a function of m, the number of examples in the dataset.",
+    "source_chunk": "m2\n\ue058i=1 \ue010 \ue011\nm\n1\n= \u03b8(1 \u03b8) (5.50)\nm2 \u2212\ni=1\n\ue058\n1\n= m\u03b8(1 \u03b8) (5.51)\nm2 \u2212\n1\n= \u03b8(1 \u03b8) (5.52)\nm \u2212\nThe variance of the estimator decreases as a function of m, the number of examples\nin the dataset. This is a common property of popular estimators that we will\nreturn to when we discuss consistency (see section 5.4.5).\n5.4.4 Trading off Bias and Variance to Minimize Mean Squared\nError\nBias and variance measure two different sources of error in an estimator. Bias",
+    "course_key": "deep_learning",
+    "course_title": "Deep Learning",
+    "unit_key": "unit_1",
+    "unit_title": "Foundations of Neural Networks",
+    "source_file": "Deep_Learning_Book_Ian_J_Goodfellow_Deep learning_MIT_Press.pdf"
+  },
+  {
+    "question": "How do bias and variance measure different sources of error in an estimator?",
+    "ground_truth": "Bias measures the average difference between the estimated value and the true value, while variance measures the spread or dispersion of the estimated values around the mean estimate.",
+    "source_chunk": "m2\n\ue058i=1 \ue010 \ue011\nm\n1\n= \u03b8(1 \u03b8) (5.50)\nm2 \u2212\ni=1\n\ue058\n1\n= m\u03b8(1 \u03b8) (5.51)\nm2 \u2212\n1\n= \u03b8(1 \u03b8) (5.52)\nm \u2212\nThe variance of the estimator decreases as a function of m, the number of examples\nin the dataset. This is a common property of popular estimators that we will\nreturn to when we discuss consistency (see section 5.4.5).\n5.4.4 Trading off Bias and Variance to Minimize Mean Squared\nError\nBias and variance measure two different sources of error in an estimator. Bias",
+    "course_key": "deep_learning",
+    "course_title": "Deep Learning",
+    "unit_key": "unit_1",
+    "unit_title": "Foundations of Neural Networks",
+    "source_file": "Deep_Learning_Book_Ian_J_Goodfellow_Deep learning_MIT_Press.pdf"
+  },
+  {
+    "question": "What are the main challenges in using anaphoric resolution for document description in information retrieval?",
+    "ground_truth": "Anaphoric resolution can be challenging due to issues with pronoun reference, ambiguity, and context. To overcome these challenges, researchers rely on techniques such as part-of-speech tagging, named entity recognition, and machine learning algorithms. Effective anaphoric resolution is crucial for accurate document description in information retrieval.",
+    "source_chunk": "interpretation. InACL35/EACL8,pp.159\u2013167.\nBonzi,Susan,andElizabethD.Liddy. 1988. Theuseofanaphoricresolutionfor\ndocumentdescriptionininformationretrieval. InSIGIR\u201988,pp.53\u201366.\nBookstein,Abraham,andDonR.Swanson.1975.Adecisiontheoreticfoundation\nforindexing.JournaloftheAmericanSocietyforInformationScience26:45\u201350.\nBooth,TaylorL.1969.Probabilisticrepresentationofformallanguages.InTenth\nAnnualIEEESymposiumonSwitchingandAutomataTheory,pp.74\u201381.",
+    "course_key": "natural_language_processing",
+    "course_title": "Natural Language Processing",
+    "unit_key": "unit_4",
+    "unit_title": "Information Extraction and Applications",
+    "source_file": "Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "question": "What is the primary goal of indexing in information science?",
+    "ground_truth": "The primary goal of indexing in information science is to provide a decision-theoretic foundation for indexing, which involves assigning numerical values to words or phrases to represent their importance. This allows for efficient and effective searching and retrieval of documents.",
+    "source_chunk": "interpretation. InACL35/EACL8,pp.159\u2013167.\nBonzi,Susan,andElizabethD.Liddy. 1988. Theuseofanaphoricresolutionfor\ndocumentdescriptionininformationretrieval. InSIGIR\u201988,pp.53\u201366.\nBookstein,Abraham,andDonR.Swanson.1975.Adecisiontheoreticfoundation\nforindexing.JournaloftheAmericanSocietyforInformationScience26:45\u201350.\nBooth,TaylorL.1969.Probabilisticrepresentationofformallanguages.InTenth\nAnnualIEEESymposiumonSwitchingandAutomataTheory,pp.74\u201381.",
+    "course_key": "natural_language_processing",
+    "course_title": "Natural Language Processing",
+    "unit_key": "unit_4",
+    "unit_title": "Information Extraction and Applications",
+    "source_file": "Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "question": "What is the main difference between Bayesian decision theory and Bayes' rule?",
+    "ground_truth": "Bayesian decision theory is a broader field that encompasses various applications of Bayes' rule, including inference and decision-making under uncertainty. Bayes' rule is a specific theorem within this framework, providing a solution to determine conditional probabilities. Bayesian decision theory goes beyond just calculating probabilities to make decisions that maximize expected utility.",
+    "source_chunk": "312 Bayes\u2019rule,seealsoBayes\u2019theorem,\nindeterminacy,286 236,347,473\ninformationsources,284 Bayes\u2019theorem,43,44\nnouncompounds,286 Bayesiandecisiontheory,57\nattributiveadjectives,87 Bayesianmodelmerging,403\nAtwell(1987),344,456 Bayesianstatistics,54\nAUTOCLASS,514 Bayesianupdating,54,56\nautomata bead,468,seealsowordbead,493\nandtransformation-based beamsearch,441\nlearning,367 Beefermanetal.(1997),572\nauxiliaries,90 bellcurve,52\naverageprecision Belletal.(1990),222",
+    "course_key": "natural_language_processing",
+    "course_title": "Natural Language Processing",
+    "unit_key": "unit_4",
+    "unit_title": "Information Extraction and Applications",
+    "source_file": "Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "question": "What does AUTOCLASS represent in the context of Natural Language Processing?",
+    "ground_truth": "AUTOCLASS stands for Automated Classification System using Learning and Statistics, a machine learning technique used for automatic classification tasks. It is often employed in text classification applications where the goal is to assign labels or categories to texts based on their content.",
+    "source_chunk": "312 Bayes\u2019rule,seealsoBayes\u2019theorem,\nindeterminacy,286 236,347,473\ninformationsources,284 Bayes\u2019theorem,43,44\nnouncompounds,286 Bayesiandecisiontheory,57\nattributiveadjectives,87 Bayesianmodelmerging,403\nAtwell(1987),344,456 Bayesianstatistics,54\nAUTOCLASS,514 Bayesianupdating,54,56\nautomata bead,468,seealsowordbead,493\nandtransformation-based beamsearch,441\nlearning,367 Beefermanetal.(1997),572\nauxiliaries,90 bellcurve,52\naverageprecision Belletal.(1990),222",
+    "course_key": "natural_language_processing",
+    "course_title": "Natural Language Processing",
+    "unit_key": "unit_4",
+    "unit_title": "Information Extraction and Applications",
+    "source_file": "Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "question": "What is the main difference between indexing and clustering?",
+    "ground_truth": "Indexing focuses on organizing data for efficient retrieval using keywords, whereas clustering groups similar objects or data points based on their characteristics.",
+    "source_chunk": "indexing. InProceedingsofRIAO,pp.34\u201347,RockefellerUniversity,NewYork.\nJacquemin, Christian, Judith L. Klavans, and Evelyne Tzoukermann. 1997. Ex-\npansionofmulti-wordtermsforindexingandretrievalusingmorphologyand\nsyntax. InACL35/EACL8,pp.24\u201331.\nJain,AnilK.,andRichardC.Dubes. 1988. AlgorithmsforClusteringData. Engle-\nwoodCliffs,NJ:PrenticeHall.\nJeffreys,Harold. 1948. TheoryofProbability. Oxford: ClarendonPress.\nJelinek,Frederick. 1969. Fastsequentialdecodingalgorithmusingastack. IBM",
+    "course_key": "natural_language_processing",
+    "course_title": "Natural Language Processing",
+    "unit_key": "unit_1",
+    "unit_title": "Introduction to NLP",
+    "source_file": "Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "question": "Who is credited with developing a fast sequential decoding algorithm in 1969?",
+    "ground_truth": "Frederick Jelinek developed the fast sequential decoding algorithm using a stack at IBM in 1969.",
+    "source_chunk": "indexing. InProceedingsofRIAO,pp.34\u201347,RockefellerUniversity,NewYork.\nJacquemin, Christian, Judith L. Klavans, and Evelyne Tzoukermann. 1997. Ex-\npansionofmulti-wordtermsforindexingandretrievalusingmorphologyand\nsyntax. InACL35/EACL8,pp.24\u201331.\nJain,AnilK.,andRichardC.Dubes. 1988. AlgorithmsforClusteringData. Engle-\nwoodCliffs,NJ:PrenticeHall.\nJeffreys,Harold. 1948. TheoryofProbability. Oxford: ClarendonPress.\nJelinek,Frederick. 1969. Fastsequentialdecodingalgorithmusingastack. IBM",
+    "course_key": "natural_language_processing",
+    "course_title": "Natural Language Processing",
+    "unit_key": "unit_1",
+    "unit_title": "Introduction to NLP",
+    "source_file": "Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "question": "Explain the difference between a parse tree and an Abstract Parse Tree (APT) with Penn Treebank trees.",
+    "ground_truth": "A parse tree represents a syntactic structure of a sentence in a specific format, whereas an Abstract Parse Tree (APT) is a general representation of a tree that can be used to analyze or represent any type of syntax. APTs are often used as an intermediate step before representing the final parse tree in a specific notation like Penn Treebank trees.",
+    "source_chunk": "p\ni i\nListofFigures xxiii\n12.2 APennTreebanktree. 413\n12.3 TwoCFGderivationsofthesametree. 421\n12.4 AnLCstackparser. 425\n12.5 Decomposingalocaltreeintodependencies. 430\n12.6 AnexampleofthePARSEVAL measures. 433\n12.7 Theideaofcrossingbrackets. 434\n12.8 Penntreesversusothertrees. 436\n13.1 DifferentstrategiesforMachineTranslation. 464\n13.2 Alignmentandcorrespondence. 469\n13.3 Calculatingthecostofalignments. 473\n13.4 Asampledotplot. 476\n13.5 Thepillow-shapedenvelopethatissearched. 480",
+    "course_key": "natural_language_processing",
+    "course_title": "Natural Language Processing",
+    "unit_key": "unit_3",
+    "unit_title": "Parsing and Semantics",
+    "source_file": "Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "question": "Describe how the cost of alignment can be calculated for machine translation, using the example of a dot plot.",
+    "ground_truth": "The cost of alignment is typically calculated using a scoring system that rewards correct matches and penalizes incorrect ones. A common method used in machine translation is the Smith-Waterman algorithm, which calculates a score for each possible alignment between two sequences, taking into account penalties for insertions, deletions, and substitutions.",
+    "source_chunk": "p\ni i\nListofFigures xxiii\n12.2 APennTreebanktree. 413\n12.3 TwoCFGderivationsofthesametree. 421\n12.4 AnLCstackparser. 425\n12.5 Decomposingalocaltreeintodependencies. 430\n12.6 AnexampleofthePARSEVAL measures. 433\n12.7 Theideaofcrossingbrackets. 434\n12.8 Penntreesversusothertrees. 436\n13.1 DifferentstrategiesforMachineTranslation. 464\n13.2 Alignmentandcorrespondence. 469\n13.3 Calculatingthecostofalignments. 473\n13.4 Asampledotplot. 476\n13.5 Thepillow-shapedenvelopethatissearched. 480",
+    "course_key": "natural_language_processing",
+    "course_title": "Natural Language Processing",
+    "unit_key": "unit_3",
+    "unit_title": "Parsing and Semantics",
+    "source_file": "Natural_Language_Processing_Book_Foundations_Of_Statistical_Natural_Language_Processing.pdf"
+  },
+  {
+    "question": "What is one example of how Big Data analytics can be used to improve the customer experience for a company like Gatorade?",
+    "ground_truth": "According to Adam Ostrow's article on Mashable Social Media, Gatorade uses social media command centers to monitor and respond to customers' feedback in real-time, enabling them to make data-driven decisions to improve their products and services.",
+    "source_chunk": "10. http://www.yelp.com.\n11. Amir Efrati, \u201cOnline Ads: Where 1,240 Companies Fit In,\u201d Wall Street Journal,\nJune 6, 2011.\n12. Valerie Bauerlein, \u201cGatorade\u2019s \u2018Mission\u2019: Sell More Drinks,\u201d Wall Street\nJournal, September 13, 2010. Adam, Ostrow, \u201cInside Gatorade\u2019s Social Media\nCommand Center,\u201d Mashable Social Media, June 15, 2010. Also see the YouTube\nvideo at http://www.youtube.com/watch?v=InrOvEE2v38.\n13. Jeff Bertolucci, \u201cSmart Phones, Big Data Help Fix Boston\u2019s Potholes,\u201d",
+    "course_key": "big_data_analytics",
+    "course_title": "Big Data Analytics",
+    "unit_key": "unit_1",
+    "unit_title": "Introduction to Big Data",
+    "source_file": "Big_Data_Analytics_Book_IBM_Arvind_Sathi.pdf"
+  },
+  {
+    "question": "What is one way that Big Data analytics can be used to solve a practical problem for a city like Boston?",
+    "ground_truth": "According to Jeff Bertolucci's article on the Wall Street Journal, Big Data analytics was used to analyze sensor data from Boston's pothole detection system, enabling the city to prioritize repair efforts and reduce the number of potholes.",
+    "source_chunk": "10. http://www.yelp.com.\n11. Amir Efrati, \u201cOnline Ads: Where 1,240 Companies Fit In,\u201d Wall Street Journal,\nJune 6, 2011.\n12. Valerie Bauerlein, \u201cGatorade\u2019s \u2018Mission\u2019: Sell More Drinks,\u201d Wall Street\nJournal, September 13, 2010. Adam, Ostrow, \u201cInside Gatorade\u2019s Social Media\nCommand Center,\u201d Mashable Social Media, June 15, 2010. Also see the YouTube\nvideo at http://www.youtube.com/watch?v=InrOvEE2v38.\n13. Jeff Bertolucci, \u201cSmart Phones, Big Data Help Fix Boston\u2019s Potholes,\u201d",
+    "course_key": "big_data_analytics",
+    "course_title": "Big Data Analytics",
+    "unit_key": "unit_1",
+    "unit_title": "Introduction to Big Data",
+    "source_file": "Big_Data_Analytics_Book_IBM_Arvind_Sathi.pdf"
+  },
+  {
+    "question": "Given a dataset and its differences, what is the purpose of setting the index of the differentiated series to start from the second value of the original series?",
+    "ground_truth": "To account for the missing first observation in the original time series data.",
+    "source_chunk": "diff = list()\nfor i in range(1, len(dataset)):\nvalue = dataset[i] - dataset[i - 1]\ndiff.append(value)\nreturn Series(diff)\n\u2019 \u2019\nseries = read_csv( dataset.csv , header=None, index_col=0, parse_dates=True, squeeze=True)\nX = series.values\n\u2019 \u2019\nX = X.astype( float32 )\n# difference data\nstationary = difference(X)\nstationary.index = series.index[1:]\n# check if stationary\nresult = adfuller(stationary)\n\u2019 \u2019\nprint( ADF Statistic: %f % result[0])\n\u2019 \u2019\nprint( p-value: %f % result[1])\n\u2019 \u2019",
+    "course_key": "forecasting_methods",
+    "course_title": "Forecasting Methods",
+    "unit_key": "unit_1",
+    "unit_title": "Foundations of Forecasting and Time Series",
+    "source_file": "Forecasting_Methods_Introduction to Time Series Forecasting with Python.pdf"
+  },
+  {
+    "question": "What is the primary challenge faced by pattern discovery algorithms in text data analytics?",
+    "ground_truth": "Pattern overabundance can be a limitation for these algorithms as it may lead to noise in the results and make it difficult to identify meaningful patterns.",
+    "source_chunk": "input\u2013outputparadigmfor,13 NASAaerospace,65\ninspiration/directionof,1 thematichierarchical,65\nintroductionsto,11 threedimensional(3-D)effects,219\u2013221\nKDDapplications,13 Seealsorepresentations,2-D\nlifesciencesand,273 algorithms,219\nmethodologies,9 challengesof,220\npatentresearchand,273 disadvantagesof,221\npatternoverabundancelimitation,9 impactof,221\npattern-discoveryalgorithms,1,5 opportunitiesofferedby,220\npatterns,19 thresholding\npreprocessingoperations,1,2,4,7,8,13\u201314,57 fixed,67",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_1",
+    "unit_title": "Text Data Analytics",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "Which preprocessing operation is commonly used to fix noisy or damaged text data?",
+    "ground_truth": "Fixed-point operations are often used in text preprocessing, particularly for fixed-length strings like text IDs in datasets",
+    "source_chunk": "input\u2013outputparadigmfor,13 NASAaerospace,65\ninspiration/directionof,1 thematichierarchical,65\nintroductionsto,11 threedimensional(3-D)effects,219\u2013221\nKDDapplications,13 Seealsorepresentations,2-D\nlifesciencesand,273 algorithms,219\nmethodologies,9 challengesof,220\npatentresearchand,273 disadvantagesof,221\npatternoverabundancelimitation,9 impactof,221\npattern-discoveryalgorithms,1,5 opportunitiesofferedby,220\npatterns,19 thresholding\npreprocessingoperations,1,2,4,7,8,13\u201314,57 fixed,67",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_1",
+    "unit_title": "Text Data Analytics",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "What is the main difference between the Viterbi algorithm and the forward\u2013backward algorithm?",
+    "ground_truth": "The Viterbi algorithm is used for decoding in Hidden Markov Models (HMMs), while the forward\u2013backward algorithm is used for calculating probabilities of state sequences. The Viterbi algorithm finds the most likely path through the HMM, whereas the forward\u2013backward algorithm calculates the probability of any path.",
+    "source_chunk": "coresand,258\u2013259 probabilisticextraction,121\ncovering,121 Ripper,74,298\nCRF,121 salience,114\nDelta,36,41 search,36,178,236\ndocumentsstructuredby,57 sequentialpatternsmining,30\nEM,78,90\u201391 shuffling,85\nEM-basedmixtureresolving,85,87 SOMsgenerated,213,216\u2013217\nepisodebased,41 spring-embedder,245\nevaluating,121 SVM,76\u201377\nFACT\u2019s,49 tasksfor,58\nforce-directedgraphlayout,245,246 textmining,5,8\nforward\u2013backward,134,141 Viterbi,133\u2013134,138,141\nfrequentconceptset,24,25 WHISK,119\n389",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_2",
+    "unit_title": "Machine Learning for Text Data",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "What type of machine learning algorithm is WHISK?",
+    "ground_truth": "WHISK is an Expectation-Maximization (EM) based mixture resolving algorithm. It uses EM to find the best parameters for a model and is used for tasks such as concept set discovery in text data.",
+    "source_chunk": "coresand,258\u2013259 probabilisticextraction,121\ncovering,121 Ripper,74,298\nCRF,121 salience,114\nDelta,36,41 search,36,178,236\ndocumentsstructuredby,57 sequentialpatternsmining,30\nEM,78,90\u201391 shuffling,85\nEM-basedmixtureresolving,85,87 SOMsgenerated,213,216\u2013217\nepisodebased,41 spring-embedder,245\nevaluating,121 SVM,76\u201377\nFACT\u2019s,49 tasksfor,58\nforce-directedgraphlayout,245,246 textmining,5,8\nforward\u2013backward,134,141 Viterbi,133\u2013134,138,141\nfrequentconceptset,24,25 WHISK,119\n389",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_2",
+    "unit_title": "Machine Learning for Text Data",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "What is the primary purpose of a spanning tree in machine learning for image data?",
+    "ground_truth": "A spanning tree is used to represent the structure of an image dataset by connecting all data points (vertices) while minimizing the total edge weight, allowing for efficient analysis and comparison of different images.",
+    "source_chunk": "transmission originaldocument,90\nemissioncycle,131 spacemodel,85\nmatrix,143 support,76\ntree(s).Seealsominimalspanningtree weight,142\nbinary,73 verbs,indicating,115\nbrowsing,15 vertices,33,258,264\nhierarchical,42,195 VIEtask.Seevisualinformationextractiontask",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_4",
+    "unit_title": "Machine Learning for Image Data",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "What type of machine learning algorithm is suitable for tasks that require visual information extraction from images?",
+    "ground_truth": "Visual Information Extraction tasks often utilize techniques such as convolutional neural networks or object detection algorithms to identify and extract relevant features from images.",
+    "source_chunk": "transmission originaldocument,90\nemissioncycle,131 spacemodel,85\nmatrix,143 support,76\ntree(s).Seealsominimalspanningtree weight,142\nbinary,73 verbs,indicating,115\nbrowsing,15 vertices,33,258,264\nhierarchical,42,195 VIEtask.Seevisualinformationextractiontask",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_4",
+    "unit_title": "Machine Learning for Image Data",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "What is the main difference between term-level representations and list-level representations in Text and Image Analytics?",
+    "ground_truth": "Term-level representations focus on individual terms or words in a document, whereas list-level representations consider groups of related terms or lists.",
+    "source_chunk": "P1:JPJ\n0521836573ind CB1028/Feldman 0521836573 October13,2006 20:21\n408 Index\nterm-levelrepresentations,7 textminingapplications,8\ntermlists,156 corporatefinance-oriented,284\nTEs.Seetemplateelementtasks DocumentExplorer,18\ntestsets,67,100 Explorasystem,18\ntext(s) FACT,18\nclassifiers,76,79\u201380 GUIsof,177\nclustering,xi,89,91\u201392 horizontal,307\ncomprehension,95 KDT,18\nelementsextractedfrom,96 LINDIproject,18\nextraction,96 SYNDICATEsystem,18\nfiltering,65\u201366 TEXTRISEsystem,18",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_2",
+    "unit_title": "Machine Learning for Text Data",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "Which text mining application involves using a system to automatically extract elements from a document?",
+    "ground_truth": "This refers to the extraction tasks listed under the 'Extract' section in the Document Explorer task template, such as extracting elementsextractedfrom documents.",
+    "source_chunk": "P1:JPJ\n0521836573ind CB1028/Feldman 0521836573 October13,2006 20:21\n408 Index\nterm-levelrepresentations,7 textminingapplications,8\ntermlists,156 corporatefinance-oriented,284\nTEs.Seetemplateelementtasks DocumentExplorer,18\ntestsets,67,100 Explorasystem,18\ntext(s) FACT,18\nclassifiers,76,79\u201380 GUIsof,177\nclustering,xi,89,91\u201392 horizontal,307\ncomprehension,95 KDT,18\nelementsextractedfrom,96 LINDIproject,18\nextraction,96 SYNDICATEsystem,18\nfiltering,65\u201366 TEXTRISEsystem,18",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_2",
+    "unit_title": "Machine Learning for Text Data",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "What is the purpose of hyperboloid tree in Text and Image Analytics?",
+    "ground_truth": "The hyperboloid tree is a data structure used to organize and represent text data, allowing for efficient clustering and exploration.",
+    "source_chunk": "clustering,11,184\u2013185 303\nDocumentExplorervisualization,236 unknowntokens,152,161\nediting,184 UNK tokens,152\ngraphical,189 user(s)\nhybrid,221\u2013224 browsingby,10,13\nhyperbolictree,217 clusteringguidedby,83\nlinegraphsasprototyping,207 customizingprofilesof,11\nprototyping,207 empowering,10\nvisualization,1,10,14,192,194,227\u2013228, groups,194\n2941,10,14,192,194,226\u2013227,292 interactivityof,179,189\nTR.Seetemplaterelationshiptask M-supportand,28\ntrainableextractiongrammar(TEG),155, patternknowledgeof,36",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_2",
+    "unit_title": "Machine Learning for Text Data",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  },
+  {
+    "question": "What is the main difference between User(s) and user(s)?",
+    "ground_truth": "In the context of Text and Image Analytics, 'User' refers to an individual entity, whereas 'users' typically denotes a plural form of users, representing multiple individuals.",
+    "source_chunk": "clustering,11,184\u2013185 303\nDocumentExplorervisualization,236 unknowntokens,152,161\nediting,184 UNK tokens,152\ngraphical,189 user(s)\nhybrid,221\u2013224 browsingby,10,13\nhyperbolictree,217 clusteringguidedby,83\nlinegraphsasprototyping,207 customizingprofilesof,11\nprototyping,207 empowering,10\nvisualization,1,10,14,192,194,227\u2013228, groups,194\n2941,10,14,192,194,226\u2013227,292 interactivityof,179,189\nTR.Seetemplaterelationshiptask M-supportand,28\ntrainableextractiongrammar(TEG),155, patternknowledgeof,36",
+    "course_key": "text_and_image_analytics",
+    "course_title": "Text and Image Analytics",
+    "unit_key": "unit_2",
+    "unit_title": "Machine Learning for Text Data",
+    "source_file": "Text_Analytics_Book_The Text Mining Handbook.pdf"
+  }
+]

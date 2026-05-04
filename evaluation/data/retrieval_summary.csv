@@ -1,0 +1,3 @@
+method,precision_at_k,recall_at_k,mrr,ndcg,diversity,n_cases
+cosine,0.584,0.96,0.7147,0.7814,0.4468,25
+mmr,0.504,0.92,0.6867,0.7417,0.5605,25

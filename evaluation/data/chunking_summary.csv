@@ -1,0 +1,4 @@
+strategy,context_precision,context_recall,top1_score,mean_chunk_length,n_cases
+fixed,0.52,0.84,0.5806,408.04,25
+overlap,0.464,0.88,0.5798,407.76,25
+semantic,0.456,0.88,0.5917,502.24,25

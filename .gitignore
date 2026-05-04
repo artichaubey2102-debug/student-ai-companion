@@ -28,3 +28,5 @@ data/pdfs/
 # Editor settings
 .vscode/
 .idea/
+data/image_cache/
+Screenshot*.png
